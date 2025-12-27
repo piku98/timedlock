@@ -516,6 +516,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Author
+Sourav Das
 
 Created with ❤️ for the Go community
 
