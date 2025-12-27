@@ -1,7 +1,7 @@
 # TimedLock
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/yourusername/timedlock.svg)](https://pkg.go.dev/github.com/yourusername/timedlock)
-[![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/timedlock)](https://goreportcard.com/report/github.com/yourusername/timedlock)
+[![Go Reference](https://pkg.go.dev/badge/github.com/piku98/timedlock.svg)](https://pkg.go.dev/github.com/piku98/timedlock)
+[![Go Report Card](https://goreportcard.com/badge/github.com/piku98/timedlock)](https://goreportcard.com/report/github.com/piku98/timedlock)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A production-ready Go synchronization library providing mutex-like locking with **timeout**, **context**, and **auto-release** support.
@@ -63,7 +63,7 @@ Goroutine A                  Goroutine B
 ## Installation
 
 ```bash
-go get github.com/yourusername/timedlock
+go get github.com/piku98/timedlock
 ```
 
 ## Quick Start
@@ -76,7 +76,7 @@ import (
     "fmt"
     "time"
     
-    "github.com/yourusername/timedlock"
+    "github.com/piku98/timedlock"
 )
 
 func main() {
@@ -521,4 +521,4 @@ Created with ❤️ for the Go community
 
 ---
 
-**Need help?** Open an issue or check the [documentation](https://pkg.go.dev/github.com/yourusername/timedlock)
+**Need help?** Open an issue or check the [documentation](https://pkg.go.dev/github.com/piku98/timedlock)
