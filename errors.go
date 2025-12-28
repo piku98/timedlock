@@ -64,4 +64,3 @@ func NewContextError(operation string, cause error) *ContextError {
 		Cause:     cause,
 	}
 }
-
