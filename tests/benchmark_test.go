@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"timedlock"
+	"github.com/piku98/timedlock"
 )
 
 // BenchmarkTimedLock_Lock benchmarks basic lock acquisition and release.
@@ -32,7 +32,6 @@ func BenchmarkTimedLock_TryLock(b *testing.B) {
 		}
 	}
 }
-
 
 // BenchmarkTimedLock_Contention benchmarks lock performance under contention.
 func BenchmarkTimedLock_Contention(b *testing.B) {
@@ -134,4 +133,3 @@ func BenchmarkTimedLock_CreateAndDestroy(b *testing.B) {
 		_ = timedlock.New()
 	}
 }
-

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"timedlock"
+	"github.com/piku98/timedlock"
 )
 
 // Test 1: Lock and auto-release with releaseTimeout
