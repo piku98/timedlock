@@ -9,11 +9,11 @@ A production-ready Go synchronization library providing mutex-like locking with 
 ## Why TimedLock?
 
 While `sync.Mutex` is perfect for simple mutual exclusion, real-world applications often need:
-- ⏱️ **Timeouts** to prevent indefinite blocking
-- 🎯 **Context integration** for cancellation and deadlines  
-- 🔓 **Auto-release** to prevent deadlocks
-- 🚀 **Non-blocking attempts** to check lock availability
-- 📊 **Rich error information** for debugging
+- **Timeouts** to prevent indefinite blocking
+- **Context integration** for cancellation and deadlines  
+- **Auto-release** to prevent deadlocks
+- **Non-blocking attempts** to check lock availability
+- **Rich error information** for debugging
 
 TimedLock provides all of these while maintaining the simplicity of a mutex.
 
@@ -53,8 +53,8 @@ Goroutine A                  Goroutine B
      │   starts (if enabled)      │
      │                            │
      ├─→ Critical Section         │
-     │                            ├─→ Timeout after 5s? ⏱️
-     │                            ├─→ Context cancelled? 🚫
+     │                            ├─→ Timeout after 5s?
+     │                            ├─→ Context cancelled?
      └─→ Unlock() ────────────────┼─→ Lock acquired! ✓
                                   │
                                   └─→ Critical Section
@@ -518,7 +518,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Author
 Sourav Das
 
-Created with ❤️ for the Go community
+Created for the Go community
 
 ---
 
